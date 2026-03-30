@@ -1,8 +1,8 @@
-<h2>🚀 Guia de Consulta Rápida: Git (Cheatsheet)</h2>
+<h1>🚀 Guia de Consulta Rápida: Git (Cheatsheet)</h1>
 
 Este guia contém os comandos mais utilizados no dia a dia para versionamento de projetos.
 
-📂 Configurações Iniciais
+<h2>📂 Configurações Iniciais</h2>
 
 Antes de começar, configure sua identidade para que os commits sejam atribuídos corretamente.
 
@@ -12,13 +12,13 @@ git config --global user.email "seuemail@exemplo.com": Define o e-mail.
 
 git config --list: Lista todas as configurações atuais.
 
-🛠️ Iniciando e Clonando
+<h2>🛠️ Iniciando e Clonando</h2>
 
 git init: Inicia um novo repositório Git na pasta atual.
 
 git clone <url>: Clona um repositório remoto existente para sua máquina.
 
-🔄 Ciclo de Trabalho (O Básico)
+<h2>🔄 Ciclo de Trabalho (O Básico)</h2>
 
 O fluxo padrão de salvar alterações.
 
@@ -32,7 +32,7 @@ git commit -m "mensagem": Salva as alterações com uma descrição do que foi f
 
 git commit --amend: Edita o último commit (cuidado se já tiver enviado para o servidor).
 
-🌿 Branches (Ramos)
+<h2>🌿 Branches (Ramos)</h2>
 
 Essencial para trabalhar em novas funcionalidades sem quebrar o código principal.
 
@@ -48,7 +48,7 @@ git merge <nome-do-ramo>: Une o ramo especificado ao ramo atual.
 
 git branch -d <nome-do-ramo>: Deleta um ramo (após o merge).
 
-☁️ Repositórios Remotos (GitHub/GitLab)
+<h2>☁️ Repositórios Remotos (GitHub/GitLab)</h2>
 
 Sincronização com o servidor.
 
@@ -60,7 +60,7 @@ git pull: Baixa as novidades do servidor e já faz o merge no seu código.
 
 git fetch: Baixa as novidades do servidor, mas não aplica as mudanças ao seu código (mais seguro para revisar).
 
-⏪ Desfazendo Coisas
+<h2>⏪ Desfazendo Coisas</h2>
 
 git checkout -- <arquivo>: Descarta as mudanças locais em um arquivo (volta ao estado do último commit).
 
@@ -70,7 +70,7 @@ git reset --hard HEAD~1: Apaga o último commit e todas as mudanças feitas nele
 
 git revert <hash-do-commit>: Cria um novo commit que desfaz as alterações de um commit específico (forma segura de desfazer).
 
-🔍 Histórico e Logs
+<h2>🔍 Histórico e Logs</h2>
 
 git log: Mostra o histórico de commits.
 
@@ -78,7 +78,7 @@ git log --oneline: Mostra o histórico de forma resumida (uma linha por commit).
 
 git diff: Mostra as alterações exatas nos arquivos que ainda não foram adicionados.
 
-📦 Guardando Temporariamente (Stash)
+<h2>📦 Guardando Temporariamente (Stash)</h2>
 
 git stash: "Esconde" suas alterações atuais para limpar a pasta de trabalho sem precisar fazer commit.
 
