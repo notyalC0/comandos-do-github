@@ -1,4 +1,4 @@
-🚀 Guia de Consulta Rápida: Git (Cheatsheet)
+<h2>🚀 Guia de Consulta Rápida: Git (Cheatsheet)<h2/>
 
 Este guia contém os comandos mais utilizados no dia a dia para versionamento de projetos.
 
